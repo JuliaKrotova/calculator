@@ -21,7 +21,6 @@ const getRemainderOfDivision = (val1, val2) => val1 % val2;
 
 const showResult = (result) => {
   resultInput.value = result;
-  confirm("Рассчитать?");
   console.log(result);
 };
 
