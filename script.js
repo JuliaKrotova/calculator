@@ -9,17 +9,17 @@ const buttonRemainderOfDivision = document.querySelector(
 );
 const resultInput = document.querySelector(".calculator__result");
 
-let getSum = (val1, val2) => Number(val1) + Number(val2);
+const getSum = (val1, val2) => Number(val1) + Number(val2);
 
-let getSubtraction = (val1, val2) => val1 - val2;
+const getSubtraction = (val1, val2) => val1 - val2;
 
-let getMultiplication = (val1, val2) => val1 * val2;
+const getMultiplication = (val1, val2) => val1 * val2;
 
-let getDivision = (val1, val2) => val1 / val2;
+const getDivision = (val1, val2) => val1 / val2;
 
-let getRemainderOfDivision = (val1, val2) => val1 % val2;
+const getRemainderOfDivision = (val1, val2) => val1 % val2;
 
-let showResult = (result) => {
+const showResult = (result) => {
   resultInput.value = result;
   confirm("Рассчитать?");
   console.log(result);
